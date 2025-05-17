@@ -1,0 +1,9 @@
+{
+  "presets": [
+    ["@babel/preset-react", {
+      "pragma": "h",         // Use your h() function
+      "pragmaFrag": "Fragment",
+      "runtime": "classic"   // Force classic (NOT "automatic")
+    }]
+  ]
+}
